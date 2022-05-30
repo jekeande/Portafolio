@@ -9,9 +9,8 @@ function nome(e) {
 function email(e) {
   tecla = (document.all) ? e.keyCode : e.which;
   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3,4})+$/) return true;
-  patron = /[a-zñA-ZÑ ]/;
   te = String.fromCharCode(tecla);
-  return patron.test(te);
+  return te.test(te);
 }
 
 const card = document.getElementById('projetoInfo')
