@@ -188,7 +188,7 @@ footer {
 }
 
 .projeto{
-    width: 90%;
+    width: 100%;
     background-color: white;
     border-radius: 4px;
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
@@ -303,17 +303,15 @@ footer {
     .projetoInfo{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        width: 80%;
+        position: relative;
     }
 
-    .projeto1{
+    .projeto{
         display: flex;
         background-color: white;
         border-radius: 4px;
         box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
-        overflow: hidden;
-        width: 32%;
+
     }
     
     .projetoButton{

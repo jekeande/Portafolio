@@ -24,7 +24,7 @@ function getApiGitHub() {
       }
 
       var data = await res.json()
-
+ 
       data.map(item => {
 
         let div = document.createElement('div')
