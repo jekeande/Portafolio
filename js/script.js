@@ -36,7 +36,7 @@ function getApiGitHub() {
              consectetur adipisicing elit.
             </p> 
             <div class="projetoButton">
-              <a href="${item.html_url}">REPOSITORIO</a>  
+              <a href="${item.html_url}" target="_blank">REPOSITORIO</a>  
               <a href="#">DEMO</a>                       
             </div>
           </div>
